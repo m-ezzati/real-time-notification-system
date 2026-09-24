@@ -1,0 +1,14 @@
+server:
+  port: 8092
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+price-simulator:
+  symbols:
+    BTC: 60000.0
+    ETH: 3000.0
+    AAPL: 180.0
+    GOOG: 140.0
+  price-generation-interval: 1

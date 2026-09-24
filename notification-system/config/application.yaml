@@ -1,0 +1,26 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: notifications
+    password: oracle
+    driver-class-name: oracle.jdbc.OracleDriver
+  kafka:
+    bootstrap-servers: localhost:9092
+    streams:
+      application-id: price-rule-processor-app
+      state-dir: C:/tmp/kafka-streams-state
+notification-sys:
+  publish-event-schedular: 100000
+  window-minute: 1440
+  kafka:
+    streams:
+      price-store-name: "price-window-store"
+    consumer:
+      notification-group-id: "notification-group"
+simulator:
+  api:
+    base-url: http://localhost:8092
+    symbols-path: /v1/symbols

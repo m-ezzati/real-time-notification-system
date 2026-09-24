@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <property name="FILE_PATH" value="logs/simulator"/>
+    <property name="datePattern" value="yyyy-MM-dd'T'HH:mm:ss.SSS"/>
+    <property name="STACK_TRACE_COUNT" value="10"/>
+    <property name="CLASS_NAME_LENGTH" value="40"/>
+    <property name="MAX_FILE_SIZE" value="200MB"/>
+    <property name="ROOT_LEVEL" value="ERROR"/>
+    <property name="APPLICATION_LEVEL" value="ERROR"/>
+
+
+    <property name="LOG_PATTERN"
+              value="%date{${datePattern}} %-5([%level]) requestId:[%-36(%mdc{requestId})] thread:[%-25.25(%thread)] %logger{${CLASS_NAME_LENGTH}}.%method@%line:%n   %message %rootException{${STACK_TRACE_COUNT}}%n"/>
+
+     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <append>true</append>
+        <prudent>true</prudent>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${FILE_PATH}/notification-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <maxFileSize>${MAX_FILE_SIZE}</maxFileSize>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.springframework" level="${APPLICATION_LEVEL}"/>
+    <logger name="org.springframework.transaction" level="${APPLICATION_LEVEL}"/>
+    <logger name="org.springframework.orm.jpa" level="${APPLICATION_LEVEL}"/>
+    <logger name="org.hibernate" level="DEBUG"/>
+    <logger name="org.apache.kafka.streams.processor.internals.StateDirectory" level="WARN"/>
+
+    <root level="${ROOT_LEVEL}">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="ROLLING_FILE"/>
+    </root>
+
+
+</configuration>
