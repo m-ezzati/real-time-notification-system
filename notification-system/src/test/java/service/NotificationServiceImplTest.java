@@ -1,10 +1,10 @@
 package service;
 
-import com.saber.testHibernate.entity.Notification;
-import com.saber.testHibernate.kafka.event.NotificationEvent;
-import com.saber.testHibernate.mapper.NotificationMapper;
-import com.saber.testHibernate.repository.NotificationRepository;
-import com.saber.testHibernate.service.impl.NotificationServiceImpl;
+import com.maryam.notificationSystem.entity.Notification;
+import com.maryam.notificationSystem.kafka.event.NotificationEvent;
+import com.maryam.notificationSystem.mapper.NotificationMapper;
+import com.maryam.notificationSystem.repository.NotificationRepository;
+import com.maryam.notificationSystem.service.impl.NotificationServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

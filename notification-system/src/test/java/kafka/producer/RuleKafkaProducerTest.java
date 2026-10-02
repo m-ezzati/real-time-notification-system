@@ -2,8 +2,8 @@ package kafka.producer;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.saber.testHibernate.kafka.event.RuleEvent;
-import com.saber.testHibernate.kafka.producer.RuleKafkaProducer;
+import com.maryam.notificationSystem.kafka.event.RuleEvent;
+import com.maryam.notificationSystem.kafka.producer.RuleKafkaProducer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;

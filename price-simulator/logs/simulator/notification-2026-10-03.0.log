@@ -1,0 +1,584 @@
+2026-10-03T01:49:38.235 [INFO] requestId:[                                    ] thread:[background-preinit       ] o.h.validator.internal.util.Version.<clinit>@21:
+   HV000001: Hibernate Validator 8.0.1.Final 
+2026-10-03T01:49:38.314 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@122:
+   Trying to load META-INF/validation.xml for XML based Validator configuration. 
+2026-10-03T01:49:38.322 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@61:
+   Trying to load META-INF/validation.xml via TCCL 
+2026-10-03T01:49:38.328 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@67:
+   Trying to load META-INF/validation.xml via Hibernate Validator's class loader 
+2026-10-03T01:49:38.330 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@129:
+   No META-INF/validation.xml found. Using annotation based configuration only. 
+2026-10-03T01:49:38.348 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.resolver.TraversableResolvers.getDefault@61:
+   Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable. 
+2026-10-03T01:49:38.460 [INFO] requestId:[                                    ] thread:[main                     ] c.maryam.simulator.SimulatorApplication.logStarting@51:
+   Starting SimulatorApplication using Java 24.0.1 with PID 10796 (C:\Users\77113132\IdeaProjects\notification-sys\IdeaProjectsReview\simulator\target\classes started by 77113132 in C:\Users\77113132\IdeaProjects\notification-sys\IdeaProjectsReview\simulator) 
+2026-10-03T01:49:38.466 [INFO] requestId:[                                    ] thread:[main                     ] c.maryam.simulator.SimulatorApplication.logStartupProfileInfo@637:
+   No active profile set, falling back to 1 default profile: "default" 
+2026-10-03T01:49:38.507 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.m.ResourceBundleMessageInterpolator.buildExpressionFactory@175:
+   Loaded expression factory via original TCCL 
+2026-10-03T01:49:39.238 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.determinePropertyNodeNameProvider@355:
+   HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider. 
+2026-10-03T01:49:39.263 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@447:
+   HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator. 
+2026-10-03T01:49:39.268 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@448:
+   HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver. 
+2026-10-03T01:49:39.271 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@449:
+   HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider. 
+2026-10-03T01:49:39.273 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@450:
+   HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider. 
+2026-10-03T01:49:39.274 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@451:
+   HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory. 
+2026-10-03T01:49:43.286 [INFO] requestId:[                                    ] thread:[main                     ] o.s.b.w.embedded.tomcat.TomcatWebServer.initialize@108:
+   Tomcat initialized with port(s): 8092 (http) 
+2026-10-03T01:49:43.320 [INFO] requestId:[                                    ] thread:[main                     ] o.apache.coyote.http11.Http11NioProtocol.log@173:
+   Initializing ProtocolHandler ["http-nio-8092"] 
+2026-10-03T01:49:43.329 [INFO] requestId:[                                    ] thread:[main                     ] o.apache.catalina.core.StandardService.log@173:
+   Starting service [Tomcat] 
+2026-10-03T01:49:43.331 [INFO] requestId:[                                    ] thread:[main                     ] org.apache.catalina.core.StandardEngine.log@173:
+   Starting Servlet engine: [Apache Tomcat/10.1.13] 
+2026-10-03T01:49:43.933 [INFO] requestId:[                                    ] thread:[main                     ] o.a.c.c.C.[Tomcat].[localhost].[/].log@173:
+   Initializing Spring embedded WebApplicationContext 
+2026-10-03T01:49:43.936 [INFO] requestId:[                                    ] thread:[main                     ] o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext@291:
+   Root WebApplicationContext: initialization completed in 5041 ms 
+2026-10-03T01:49:44.229 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.m.ResourceBundleMessageInterpolator.buildExpressionFactory@175:
+   Loaded expression factory via original TCCL 
+2026-10-03T01:49:44.235 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.engine.AbstractConfigurationImpl.messageInterpolator@176:
+   Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator 
+2026-10-03T01:49:44.238 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.engine.AbstractConfigurationImpl.constraintValidatorFactory@208:
+   Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory 
+2026-10-03T01:49:44.242 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@122:
+   Trying to load META-INF/validation.xml for XML based Validator configuration. 
+2026-10-03T01:49:44.244 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@54:
+   Trying to load META-INF/validation.xml via user class loader 
+2026-10-03T01:49:44.245 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@61:
+   Trying to load META-INF/validation.xml via TCCL 
+2026-10-03T01:49:44.246 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@67:
+   Trying to load META-INF/validation.xml via Hibernate Validator's class loader 
+2026-10-03T01:49:44.247 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@129:
+   No META-INF/validation.xml found. Using annotation based configuration only. 
+2026-10-03T01:49:44.250 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.resolver.TraversableResolvers.getDefault@61:
+   Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable. 
+2026-10-03T01:49:44.256 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.determinePropertyNodeNameProvider@355:
+   HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider. 
+2026-10-03T01:49:44.259 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@447:
+   HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator. 
+2026-10-03T01:49:44.261 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@448:
+   HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver. 
+2026-10-03T01:49:44.262 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@449:
+   HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider. 
+2026-10-03T01:49:44.263 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@450:
+   HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider. 
+2026-10-03T01:49:44.264 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@451:
+   HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory. 
+2026-10-03T01:49:45.547 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.m.ResourceBundleMessageInterpolator.buildExpressionFactory@175:
+   Loaded expression factory via original TCCL 
+2026-10-03T01:49:45.553 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.engine.AbstractConfigurationImpl.messageInterpolator@176:
+   Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator 
+2026-10-03T01:49:45.555 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.engine.AbstractConfigurationImpl.constraintValidatorFactory@208:
+   Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory 
+2026-10-03T01:49:45.559 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@122:
+   Trying to load META-INF/validation.xml for XML based Validator configuration. 
+2026-10-03T01:49:45.560 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@54:
+   Trying to load META-INF/validation.xml via user class loader 
+2026-10-03T01:49:45.561 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@61:
+   Trying to load META-INF/validation.xml via TCCL 
+2026-10-03T01:49:45.563 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@67:
+   Trying to load META-INF/validation.xml via Hibernate Validator's class loader 
+2026-10-03T01:49:45.565 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@129:
+   No META-INF/validation.xml found. Using annotation based configuration only. 
+2026-10-03T01:49:45.568 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.resolver.TraversableResolvers.getDefault@61:
+   Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable. 
+2026-10-03T01:49:45.573 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.determinePropertyNodeNameProvider@355:
+   HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider. 
+2026-10-03T01:49:45.575 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@447:
+   HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator. 
+2026-10-03T01:49:45.576 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@448:
+   HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver. 
+2026-10-03T01:49:45.577 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@449:
+   HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider. 
+2026-10-03T01:49:45.578 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@450:
+   HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider. 
+2026-10-03T01:49:45.579 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@451:
+   HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory. 
+2026-10-03T01:49:47.786 [INFO] requestId:[                                    ] thread:[main                     ] o.apache.coyote.http11.Http11NioProtocol.log@173:
+   Starting ProtocolHandler ["http-nio-8092"] 
+2026-10-03T01:49:47.863 [INFO] requestId:[                                    ] thread:[main                     ] o.s.b.w.embedded.tomcat.TomcatWebServer.start@220:
+   Tomcat started on port(s): 8092 (http) with context path '' 
+2026-10-03T01:49:47.904 [INFO] requestId:[                                    ] thread:[main                     ] c.maryam.simulator.SimulatorApplication.logStarted@57:
+   Started SimulatorApplication in 12.926 seconds (process running for 18.968) 
+2026-10-03T01:49:47.917 [INFO] requestId:[                                    ] thread:[scheduling-1             ] c.maryam.simulator.logging.LoggingAspect.logExecution@28:
+   Entering com.maryam.simulator.service.PriceSimulatorService.generatePrice with args=[] 
+2026-10-03T01:49:48.319 [INFO] requestId:[                                    ] thread:[scheduling-1             ] o.a.k.clients.producer.ProducerConfig.logAll@376:
+   ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+ 
+2026-10-03T01:49:48.578 [INFO] requestId:[                                    ] thread:[scheduling-1             ] o.a.kafka.clients.producer.KafkaProducer.configureTransactionState@596:
+   [Producer clientId=producer-1] Instantiated an idempotent producer. 
+2026-10-03T01:49:48.839 [INFO] requestId:[                                    ] thread:[scheduling-1             ] o.a.kafka.common.utils.AppInfoParser.<init>@119:
+   Kafka version: 3.4.1 
+2026-10-03T01:49:48.843 [INFO] requestId:[                                    ] thread:[scheduling-1             ] o.a.kafka.common.utils.AppInfoParser.<init>@120:
+   Kafka commitId: 8a516edc2755df89 
+2026-10-03T01:49:48.845 [INFO] requestId:[                                    ] thread:[scheduling-1             ] o.a.kafka.common.utils.AppInfoParser.<init>@121:
+   Kafka startTimeMs: 1790979588829 
+2026-10-03T01:49:50.237 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:49:50.245 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:49:50.246 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:49:50.359 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:49:50.361 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:49:50.362 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:49:50.469 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:49:50.471 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:49:50.472 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:49:50.678 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:49:50.680 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:49:50.681 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:49:51.088 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:49:51.090 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:49:51.091 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:49:51.902 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:49:51.903 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:49:51.904 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:49:52.718 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:49:52.719 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:49:52.720 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:49:53.532 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:49:53.533 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:49:53.534 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:49:54.431 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:49:54.433 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:49:54.442 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:49:55.413 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:49:55.414 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:49:55.415 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:49:56.447 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:49:56.448 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:49:56.450 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:49:56.803 [INFO] requestId:[                                    ] thread:[ngApplicationShutdownHook] o.a.kafka.clients.producer.KafkaProducer.close@1310:
+   [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms. 
+2026-10-03T01:49:56.818 [INFO] requestId:[                                    ] thread:[ngApplicationShutdownHook] org.apache.kafka.common.metrics.Metrics.close@693:
+   Metrics scheduler closed 
+2026-10-03T01:49:56.819 [INFO] requestId:[                                    ] thread:[ngApplicationShutdownHook] org.apache.kafka.common.metrics.Metrics.close@697:
+   Closing reporter org.apache.kafka.common.metrics.JmxReporter 
+2026-10-03T01:49:56.821 [INFO] requestId:[                                    ] thread:[ngApplicationShutdownHook] org.apache.kafka.common.metrics.Metrics.close@703:
+   Metrics reporters closed 
+2026-10-03T01:49:56.822 [INFO] requestId:[                                    ] thread:[ngApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser.unregisterAppInfo@83:
+   App info kafka.producer for producer-1 unregistered 
+2026-10-03T01:53:07.792 [INFO] requestId:[                                    ] thread:[background-preinit       ] o.h.validator.internal.util.Version.<clinit>@21:
+   HV000001: Hibernate Validator 8.0.1.Final 
+2026-10-03T01:53:07.820 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@122:
+   Trying to load META-INF/validation.xml for XML based Validator configuration. 
+2026-10-03T01:53:07.823 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@61:
+   Trying to load META-INF/validation.xml via TCCL 
+2026-10-03T01:53:07.826 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@67:
+   Trying to load META-INF/validation.xml via Hibernate Validator's class loader 
+2026-10-03T01:53:07.827 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@129:
+   No META-INF/validation.xml found. Using annotation based configuration only. 
+2026-10-03T01:53:07.835 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.resolver.TraversableResolvers.getDefault@61:
+   Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable. 
+2026-10-03T01:53:07.896 [INFO] requestId:[                                    ] thread:[main                     ] c.maryam.simulator.SimulatorApplication.logStarting@51:
+   Starting SimulatorApplication using Java 24.0.1 with PID 10504 (C:\Users\77113132\IdeaProjects\real-time-notification-system\simulator\target\classes started by 77113132 in C:\Users\77113132\IdeaProjects\real-time-notification-system\simulator) 
+2026-10-03T01:53:07.898 [INFO] requestId:[                                    ] thread:[main                     ] c.maryam.simulator.SimulatorApplication.logStartupProfileInfo@637:
+   No active profile set, falling back to 1 default profile: "default" 
+2026-10-03T01:53:07.912 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.m.ResourceBundleMessageInterpolator.buildExpressionFactory@175:
+   Loaded expression factory via original TCCL 
+2026-10-03T01:53:08.272 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.determinePropertyNodeNameProvider@355:
+   HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider. 
+2026-10-03T01:53:08.284 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@447:
+   HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator. 
+2026-10-03T01:53:08.285 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@448:
+   HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver. 
+2026-10-03T01:53:08.286 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@449:
+   HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider. 
+2026-10-03T01:53:08.287 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@450:
+   HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider. 
+2026-10-03T01:53:08.287 [DEBUG] requestId:[                                    ] thread:[background-preinit       ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@451:
+   HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory. 
+2026-10-03T01:53:12.517 [INFO] requestId:[                                    ] thread:[main                     ] o.s.b.w.embedded.tomcat.TomcatWebServer.initialize@108:
+   Tomcat initialized with port(s): 8092 (http) 
+2026-10-03T01:53:12.559 [INFO] requestId:[                                    ] thread:[main                     ] o.apache.coyote.http11.Http11NioProtocol.log@173:
+   Initializing ProtocolHandler ["http-nio-8092"] 
+2026-10-03T01:53:12.569 [INFO] requestId:[                                    ] thread:[main                     ] o.apache.catalina.core.StandardService.log@173:
+   Starting service [Tomcat] 
+2026-10-03T01:53:12.571 [INFO] requestId:[                                    ] thread:[main                     ] org.apache.catalina.core.StandardEngine.log@173:
+   Starting Servlet engine: [Apache Tomcat/10.1.13] 
+2026-10-03T01:53:12.970 [INFO] requestId:[                                    ] thread:[main                     ] o.a.c.c.C.[Tomcat].[localhost].[/].log@173:
+   Initializing Spring embedded WebApplicationContext 
+2026-10-03T01:53:12.973 [INFO] requestId:[                                    ] thread:[main                     ] o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext@291:
+   Root WebApplicationContext: initialization completed in 4870 ms 
+2026-10-03T01:53:13.253 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.m.ResourceBundleMessageInterpolator.buildExpressionFactory@175:
+   Loaded expression factory via original TCCL 
+2026-10-03T01:53:13.258 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.engine.AbstractConfigurationImpl.messageInterpolator@176:
+   Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator 
+2026-10-03T01:53:13.262 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.engine.AbstractConfigurationImpl.constraintValidatorFactory@208:
+   Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory 
+2026-10-03T01:53:13.266 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@122:
+   Trying to load META-INF/validation.xml for XML based Validator configuration. 
+2026-10-03T01:53:13.268 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@54:
+   Trying to load META-INF/validation.xml via user class loader 
+2026-10-03T01:53:13.270 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@61:
+   Trying to load META-INF/validation.xml via TCCL 
+2026-10-03T01:53:13.271 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@67:
+   Trying to load META-INF/validation.xml via Hibernate Validator's class loader 
+2026-10-03T01:53:13.271 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@129:
+   No META-INF/validation.xml found. Using annotation based configuration only. 
+2026-10-03T01:53:13.274 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.resolver.TraversableResolvers.getDefault@61:
+   Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable. 
+2026-10-03T01:53:13.281 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.determinePropertyNodeNameProvider@355:
+   HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider. 
+2026-10-03T01:53:13.284 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@447:
+   HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator. 
+2026-10-03T01:53:13.286 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@448:
+   HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver. 
+2026-10-03T01:53:13.287 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@449:
+   HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider. 
+2026-10-03T01:53:13.288 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@450:
+   HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider. 
+2026-10-03T01:53:13.290 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@451:
+   HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory. 
+2026-10-03T01:53:14.412 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.m.ResourceBundleMessageInterpolator.buildExpressionFactory@175:
+   Loaded expression factory via original TCCL 
+2026-10-03T01:53:14.415 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.engine.AbstractConfigurationImpl.messageInterpolator@176:
+   Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator 
+2026-10-03T01:53:14.416 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.engine.AbstractConfigurationImpl.constraintValidatorFactory@208:
+   Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory 
+2026-10-03T01:53:14.418 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@122:
+   Trying to load META-INF/validation.xml for XML based Validator configuration. 
+2026-10-03T01:53:14.420 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@54:
+   Trying to load META-INF/validation.xml via user class loader 
+2026-10-03T01:53:14.421 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@61:
+   Trying to load META-INF/validation.xml via TCCL 
+2026-10-03T01:53:14.421 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath@67:
+   Trying to load META-INF/validation.xml via Hibernate Validator's class loader 
+2026-10-03T01:53:14.422 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.xml.config.ValidationXmlParser.getValidationXmlInputStream@129:
+   No META-INF/validation.xml found. Using annotation based configuration only. 
+2026-10-03T01:53:14.424 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.resolver.TraversableResolvers.getDefault@61:
+   Cannot find jakarta.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable. 
+2026-10-03T01:53:14.427 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.determinePropertyNodeNameProvider@355:
+   HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider. 
+2026-10-03T01:53:14.429 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@447:
+   HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator. 
+2026-10-03T01:53:14.429 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@448:
+   HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver. 
+2026-10-03T01:53:14.430 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@449:
+   HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider. 
+2026-10-03T01:53:14.431 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@450:
+   HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider. 
+2026-10-03T01:53:14.432 [DEBUG] requestId:[                                    ] thread:[main                     ] o.h.v.i.e.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration@451:
+   HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory. 
+2026-10-03T01:53:15.889 [INFO] requestId:[                                    ] thread:[main                     ] o.apache.coyote.http11.Http11NioProtocol.log@173:
+   Starting ProtocolHandler ["http-nio-8092"] 
+2026-10-03T01:53:15.936 [INFO] requestId:[                                    ] thread:[main                     ] o.s.b.w.embedded.tomcat.TomcatWebServer.start@220:
+   Tomcat started on port(s): 8092 (http) with context path '' 
+2026-10-03T01:53:15.958 [INFO] requestId:[                                    ] thread:[main                     ] c.maryam.simulator.SimulatorApplication.logStarted@57:
+   Started SimulatorApplication in 9.712 seconds (process running for 12.001) 
+2026-10-03T01:53:15.965 [INFO] requestId:[                                    ] thread:[scheduling-1             ] c.maryam.simulator.logging.LoggingAspect.logExecution@28:
+   Entering com.maryam.simulator.service.PriceSimulatorService.generatePrice with args=[] 
+2026-10-03T01:53:16.290 [INFO] requestId:[                                    ] thread:[scheduling-1             ] o.a.k.clients.producer.ProducerConfig.logAll@376:
+   ProducerConfig values: 
+	acks = -1
+	auto.include.jmx.reporter = true
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.adaptive.partitioning.enable = true
+	partitioner.availability.timeout.ms = 0
+	partitioner.class = null
+	partitioner.ignore.keys = false
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
+ 
+2026-10-03T01:53:16.410 [INFO] requestId:[                                    ] thread:[scheduling-1             ] o.a.kafka.clients.producer.KafkaProducer.configureTransactionState@596:
+   [Producer clientId=producer-1] Instantiated an idempotent producer. 
+2026-10-03T01:53:16.806 [INFO] requestId:[                                    ] thread:[scheduling-1             ] o.a.kafka.common.utils.AppInfoParser.<init>@119:
+   Kafka version: 3.4.1 
+2026-10-03T01:53:16.809 [INFO] requestId:[                                    ] thread:[scheduling-1             ] o.a.kafka.common.utils.AppInfoParser.<init>@120:
+   Kafka commitId: 8a516edc2755df89 
+2026-10-03T01:53:16.809 [INFO] requestId:[                                    ] thread:[scheduling-1             ] o.a.kafka.common.utils.AppInfoParser.<init>@121:
+   Kafka startTimeMs: 1790979796766 
+2026-10-03T01:53:18.422 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:53:18.435 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:53:18.437 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:53:18.549 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:53:18.551 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:53:18.553 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:53:18.659 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:53:18.661 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:53:18.663 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:53:18.869 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:53:18.871 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:53:18.871 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:53:19.278 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:53:19.280 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:53:19.281 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:53:20.144 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:53:20.176 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:53:20.177 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:53:21.060 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:53:21.356 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:53:21.382 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:53:22.198 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:53:22.199 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:53:22.243 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:53:23.310 [INFO] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleDisconnections@937:
+   [Producer clientId=producer-1] Node -1 disconnected. 
+2026-10-03T01:53:23.312 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.processDisconnection@775:
+   [Producer clientId=producer-1] Connection to node -1 (localhost/127.0.0.1:9092) could not be established. Broker may not be available. 
+2026-10-03T01:53:23.315 [WARN] requestId:[                                    ] thread:[twork-thread | producer-1] org.apache.kafka.clients.NetworkClient.handleServerDisconnect@1065:
+   [Producer clientId=producer-1] Bootstrap broker localhost:9092 (id: -1 rack: null) disconnected 
+2026-10-03T01:53:24.185 [INFO] requestId:[                                    ] thread:[ngApplicationShutdownHook] o.a.kafka.clients.producer.KafkaProducer.close@1310:
+   [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms. 
+2026-10-03T01:53:24.206 [INFO] requestId:[                                    ] thread:[ngApplicationShutdownHook] org.apache.kafka.common.metrics.Metrics.close@693:
+   Metrics scheduler closed 
+2026-10-03T01:53:24.207 [INFO] requestId:[                                    ] thread:[ngApplicationShutdownHook] org.apache.kafka.common.metrics.Metrics.close@697:
+   Closing reporter org.apache.kafka.common.metrics.JmxReporter 
+2026-10-03T01:53:24.205 [ERROR] requestId:[                                    ] thread:[scheduling-1             ] c.m.s.service.PriceSimulatorService.generatePrice@60:
+   Price generation job failed for symbol=ETH org.apache.kafka.common.KafkaException: Requested metadata update after close
+	at org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate(ProducerMetadata.java:126)
+	at org.apache.kafka.clients.producer.KafkaProducer.waitOnMetadata(KafkaProducer.java:1147)
+	at org.apache.kafka.clients.producer.KafkaProducer.doSend(KafkaProducer.java:996)
+	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:962)
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory$CloseSafeProducer.send(DefaultKafkaProducerFactory.java:1062)
+	at org.springframework.kafka.core.KafkaTemplate.doSend(KafkaTemplate.java:783)
+	at org.springframework.kafka.core.KafkaTemplate.observeSend(KafkaTemplate.java:754)
+	at org.springframework.kafka.core.KafkaTemplate.send(KafkaTemplate.java:544)
+	at com.maryam.simulator.service.PriceSimulatorService.sendToKafka(PriceSimulatorService.java:80)
+	at com.maryam.simulator.service.PriceSimulatorService.generatePrice(PriceSimulatorService.java:54)
+Wrapped by: org.apache.kafka.common.KafkaException: Producer closed while send in progress
+	at org.apache.kafka.clients.producer.KafkaProducer.doSend(KafkaProducer.java:999)
+	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:962)
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory$CloseSafeProducer.send(DefaultKafkaProducerFactory.java:1062)
+	at org.springframework.kafka.core.KafkaTemplate.doSend(KafkaTemplate.java:783)
+	at org.springframework.kafka.core.KafkaTemplate.observeSend(KafkaTemplate.java:754)
+	at org.springframework.kafka.core.KafkaTemplate.send(KafkaTemplate.java:544)
+	at com.maryam.simulator.service.PriceSimulatorService.sendToKafka(PriceSimulatorService.java:80)
+	at com.maryam.simulator.service.PriceSimulatorService.generatePrice(PriceSimulatorService.java:54)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+
+2026-10-03T01:53:24.219 [INFO] requestId:[                                    ] thread:[ngApplicationShutdownHook] org.apache.kafka.common.metrics.Metrics.close@703:
+   Metrics reporters closed 
+2026-10-03T01:53:24.220 [INFO] requestId:[                                    ] thread:[scheduling-1             ] c.maryam.simulator.logging.LoggingAspect.logExecution@33:
+   Exiting com.maryam.simulator.service.PriceSimulatorService.generatePrice | executionTime=8254 ms 
+2026-10-03T01:53:24.274 [INFO] requestId:[                                    ] thread:[ngApplicationShutdownHook] o.a.kafka.common.utils.AppInfoParser.unregisterAppInfo@83:
+   App info kafka.producer for producer-1 unregistered 

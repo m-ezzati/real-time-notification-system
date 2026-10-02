@@ -1,17 +1,17 @@
 package service;
 
 
-import com.saber.testHibernate.client.SimulatorClient;
-import com.saber.testHibernate.dto.UserRegisterDto;
-import com.saber.testHibernate.dto.UserResponseDto;
-import com.saber.testHibernate.entity.User;
-import com.saber.testHibernate.exception.EmailOrPhoneNumberAlreadyExistsException;
-import com.saber.testHibernate.exception.PhoneNumberAlreadyExistsException;
-import com.saber.testHibernate.mapper.UserMapper;
-import com.saber.testHibernate.mapper.UserResponseMapper;
-import com.saber.testHibernate.repository.UserRepository;
-import com.saber.testHibernate.service.impl.UserServiceImpl;
-import com.saber.testHibernate.service.manager.UserTransactionalService;
+import com.maryam.notificationSystem.client.SimulatorClient;
+import com.maryam.notificationSystem.dto.UserRegisterDto;
+import com.maryam.notificationSystem.dto.UserResponseDto;
+import com.maryam.notificationSystem.entity.User;
+import com.maryam.notificationSystem.exception.EmailOrPhoneNumberAlreadyExistsException;
+import com.maryam.notificationSystem.exception.PhoneNumberAlreadyExistsException;
+import com.maryam.notificationSystem.mapper.UserMapper;
+import com.maryam.notificationSystem.mapper.UserResponseMapper;
+import com.maryam.notificationSystem.repository.UserRepository;
+import com.maryam.notificationSystem.service.impl.UserServiceImpl;
+import com.maryam.notificationSystem.service.manager.UserTransactionalService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

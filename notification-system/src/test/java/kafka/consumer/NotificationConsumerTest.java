@@ -1,10 +1,10 @@
 package kafka.consumer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.saber.testHibernate.entity.enums.NotificationStatus;
-import com.saber.testHibernate.kafka.consumer.NotificationConsumer;
-import com.saber.testHibernate.kafka.event.NotificationEvent;
-import com.saber.testHibernate.service.NotificationService;
+import com.maryam.notificationSystem.entity.enums.NotificationStatus;
+import com.maryam.notificationSystem.kafka.consumer.NotificationConsumer;
+import com.maryam.notificationSystem.kafka.event.NotificationEvent;
+import com.maryam.notificationSystem.service.NotificationService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
